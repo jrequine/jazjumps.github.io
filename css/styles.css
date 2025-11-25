@@ -440,17 +440,12 @@ img {
     background: var(--color-cream);
 }
 
-.tiktok-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    margin-bottom: 8px;
-}
-
 .tiktok-logo {
-    width: 48px;
-    height: 48px;
+    display: block;
+    width: 1000px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 48px;
     object-fit: contain;
 }
 
@@ -924,8 +919,7 @@ img {
     }
 
     .tiktok-logo {
-        width: 36px;
-        height: 36px;
+        width: 200px;
     }
 }
 
