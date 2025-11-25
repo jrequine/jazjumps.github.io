@@ -440,10 +440,54 @@ img {
     background: var(--color-cream);
 }
 
+.tiktok-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.tiktok-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
 .tiktok h2 {
     font-size: 2.5rem;
     text-align: center;
     color: var(--color-navy);
+    margin: 0;
+}
+
+.tiktok-stats {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin: 32px 0 40px;
+}
+
+.tiktok-stat {
+    text-align: center;
+}
+
+.tiktok-stat-number {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--color-navy);
+    line-height: 1;
+}
+
+.tiktok-stat-label {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 8px;
 }
 
 .tiktok-intro {
@@ -869,6 +913,19 @@ img {
         grid-template-columns: 1fr;
         max-width: 400px;
         margin: 0 auto;
+    }
+
+    .tiktok-stats {
+        gap: 24px;
+    }
+
+    .tiktok-stat-number {
+        font-size: 2rem;
+    }
+
+    .tiktok-logo {
+        width: 36px;
+        height: 36px;
     }
 }
 
