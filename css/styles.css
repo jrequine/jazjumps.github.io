@@ -162,13 +162,14 @@ img {
    Hero Section
    =================================== */
 .hero {
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-dark) 100%);
     overflow: hidden;
+    padding-top: 80px;
 }
 
 .hero::before {
