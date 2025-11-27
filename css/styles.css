@@ -698,6 +698,13 @@ img {
     border: 1px solid rgba(201, 169, 89, 0.3);
 }
 
+.transport-promo-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
 /* ===================================
    Connect Section
    =================================== */
@@ -1038,6 +1045,84 @@ img {
     color: var(--color-text-light);
     margin-bottom: 20px;
     line-height: 1.8;
+}
+
+/* Horsebox Showcase Section */
+.horsebox-showcase {
+    padding: 100px 0;
+    background: var(--color-cream-dark);
+}
+
+.horsebox-showcase h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--color-navy);
+}
+
+.horsebox-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.horsebox-images {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.horsebox-main {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(26, 42, 58, 0.15);
+}
+
+.horsebox-diagram {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background: var(--color-cream);
+    padding: 16px;
+    box-shadow: 0 4px 16px rgba(26, 42, 58, 0.1);
+}
+
+.horsebox-info {
+    text-align: center;
+}
+
+.broomfields-logo {
+    display: inline-block;
+    margin-bottom: 32px;
+    transition: var(--transition);
+}
+
+.broomfields-logo:hover {
+    transform: scale(1.05);
+}
+
+.broomfields-logo img {
+    max-width: 280px;
+    height: auto;
+}
+
+.horsebox-info p {
+    color: var(--color-text-light);
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 968px) {
+    .horsebox-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .horsebox-info {
+        order: -1;
+    }
 }
 
 /* Services Section */
