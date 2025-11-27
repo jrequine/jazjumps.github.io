@@ -163,7 +163,7 @@ img {
    Hero Section
    =================================== */
 .hero {
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,7 +292,7 @@ img {
    About Section
    =================================== */
 .about {
-    padding: 120px 0;
+    padding: 80px 0;
     background: var(--color-cream);
 }
 
@@ -436,8 +436,8 @@ img {
    TikTok Section
    =================================== */
 .tiktok {
-    padding: 120px 0;
-    background: var(--color-cream);
+    padding: 80px 0;
+    background: var(--color-cream-dark);
 }
 
 .tiktok-logo {
@@ -542,11 +542,120 @@ img {
 }
 
 /* ===================================
+   TikTok Preview Section (Homepage)
+   =================================== */
+.tiktok-preview {
+    padding: 100px 0;
+    background: var(--color-cream-dark);
+}
+
+.tiktok-preview h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--color-navy);
+}
+
+.tiktok-preview-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tiktok-preview-text {
+    text-align: left;
+}
+
+.tiktok-logo-small {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.tiktok-preview-text p {
+    color: var(--color-text-light);
+    margin-bottom: 24px;
+    line-height: 1.8;
+}
+
+.tiktok-stats-mini {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.tiktok-stat-mini {
+    display: flex;
+    flex-direction: column;
+}
+
+.tiktok-stat-mini .stat-number {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-navy);
+    line-height: 1;
+}
+
+.tiktok-stat-mini .stat-label {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+.tiktok-preview-cta {
+    display: inline-block;
+    padding: 14px 28px;
+    background: var(--color-navy);
+    color: var(--color-cream);
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid var(--color-navy);
+    transition: var(--transition);
+}
+
+.tiktok-preview-cta:hover {
+    background: transparent;
+    color: var(--color-navy);
+}
+
+.tiktok-preview-embed {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .tiktok-preview-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .tiktok-preview-text {
+        text-align: center;
+    }
+
+    .tiktok-stats-mini {
+        justify-content: center;
+    }
+
+    .tiktok-preview-embed {
+        order: -1;
+    }
+}
+
+/* ===================================
    Partnerships Section
    =================================== */
 .partnerships {
-    padding: 120px 0;
-    background: var(--color-cream-dark);
+    padding: 100px 0;
+    background: var(--color-cream);
 }
 
 .partnerships h2 {
@@ -555,11 +664,59 @@ img {
     color: var(--color-navy);
 }
 
-.partnerships-intro {
+.partnerships-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.partnerships-text {
     text-align: center;
-    max-width: 600px;
-    margin: 0 auto 60px;
+}
+
+.partnerships-text h3,
+.partnerships-cta-box h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-navy);
+    margin-bottom: 16px;
+}
+
+.partnerships-text p,
+.partnerships-cta-box p {
     color: var(--color-text-light);
+    margin-bottom: 24px;
+}
+
+.partnerships-cta-box {
+    background: var(--color-cream-dark);
+    padding: 40px;
+    text-align: center;
+}
+
+.partnerships-list {
+    list-style: none;
+    margin-bottom: 24px;
+    text-align: left;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partnerships-list li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    color: var(--color-text-light);
+}
+
+.partnerships-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-gold);
+    font-weight: bold;
 }
 
 .brand-logos {
@@ -567,8 +724,8 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 48px;
-    margin-bottom: 48px;
+    gap: 24px;
+    margin-bottom: 0;
 }
 
 .brand-logo {
@@ -856,6 +1013,11 @@ img {
         max-width: 400px;
         margin: 0 auto;
     }
+
+    .partnerships-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1017,6 +1179,146 @@ img {
     background: transparent;
     color: var(--color-cream);
     border-color: var(--color-cream);
+}
+
+/* Social Hero */
+.social-hero {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-dark) 100%);
+    padding-top: 80px;
+}
+
+.social-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at center, transparent 0%, var(--color-navy-dark) 70%);
+}
+
+.social-hero-content {
+    position: relative;
+    text-align: center;
+    color: var(--color-cream);
+    padding: 20px;
+}
+
+.social-hero .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 32px;
+    padding: 16px 40px;
+    background: var(--color-gold);
+    color: var(--color-navy);
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid var(--color-gold);
+    transition: var(--transition);
+}
+
+.social-hero .hero-cta:hover {
+    background: transparent;
+    color: var(--color-cream);
+    border-color: var(--color-cream);
+}
+
+/* Social Journey Section */
+.social-journey {
+    padding: 100px 0;
+    background: var(--color-cream);
+}
+
+.journey-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.journey-text h2 {
+    font-size: 2.5rem;
+    color: var(--color-navy);
+}
+
+.journey-text p {
+    color: var(--color-text-light);
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.journey-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.journey-stat-card {
+    background: var(--color-cream-dark);
+    padding: 32px;
+    text-align: center;
+    border-left: 4px solid var(--color-gold);
+}
+
+.journey-stat-number {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-navy);
+    line-height: 1;
+}
+
+.journey-stat-label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-navy);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+.journey-stat-note {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-gold);
+    font-style: italic;
+    margin-top: 4px;
+}
+
+@media (max-width: 968px) {
+    .journey-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .journey-stats {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .journey-stat-card {
+        flex: 1;
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .journey-stats {
+        flex-direction: column;
+    }
+
+    .journey-stat-card {
+        width: 100%;
+    }
 }
 
 /* Transport Intro */
