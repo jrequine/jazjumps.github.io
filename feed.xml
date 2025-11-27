@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>From the Yard - Jasmine Beasley</title>
+    <description>Updates on competitions, training, tack, and life with DJ from show jumper Jasmine Beasley.</description>
+    <link>https://jazjumps.github.io/blog.html</link>
+    <atom:link href="https://jazjumps.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 27 Nov 2025 12:00:00 GMT</lastBuildDate>
+    <managingEditor>hello@jazjumps.com (Jasmine Beasley)</managingEditor>
+    <webMaster>hello@jazjumps.com (Jasmine Beasley)</webMaster>
+    <copyright>Copyright 2025 Jasmine Beasley</copyright>
+    <category>Sports/Equestrian</category>
+    <image>
+      <url>https://jazjumps.github.io/images/favicon.png</url>
+      <title>From the Yard</title>
+      <link>https://jazjumps.github.io/blog.html</link>
+    </image>
+
+    <item>
+      <title>The JET Journey: My Broomfields Horsebox</title>
+      <link>https://jazjumps.github.io/blog/jet-horsebox-journey.html</link>
+      <guid isPermaLink="true">https://jazjumps.github.io/blog/jet-horsebox-journey.html</guid>
+      <pubDate>Wed, 27 Nov 2025 14:00:00 GMT</pubDate>
+      <author>hello@jazjumps.com (Jasmine Beasley)</author>
+      <category>Transport</category>
+      <category>JET</category>
+      <description>One of the things I'm most proud of—besides DJ, of course—is building JET into a trusted transport service. Today I want to tell you the story behind the business and the horsebox that makes it all possible.</description>
+      <content:encoded><![CDATA[
+        <p>One of the things I'm most proud of—besides DJ, of course—is building JET (Jasmine's Equine Transport) into a trusted transport service. Today I want to tell you the story behind the business and, more importantly, the horsebox that makes it all possible.</p>
+        <p>Transport has always been part of my life in horses. Growing up around Newmarket and working at some of the finest racing yards and studs in the area, I've clocked up over 450,000 miles transporting horses of all kinds.</p>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Why I Chose the Voltaire Blue Infinite Saddle</title>
+      <link>https://jazjumps.github.io/blog/voltaire-blue-infinite.html</link>
+      <guid isPermaLink="true">https://jazjumps.github.io/blog/voltaire-blue-infinite.html</guid>
+      <pubDate>Wed, 27 Nov 2025 12:00:00 GMT</pubDate>
+      <author>hello@jazjumps.com (Jasmine Beasley)</author>
+      <category>Tack</category>
+      <category>Training</category>
+      <description>One of the most common questions I get asked on TikTok is about my saddle. So I thought it was time to properly introduce you to the Voltaire Blue Infinite—the saddle that's changed how I ride and train with DJ.</description>
+      <content:encoded><![CDATA[
+        <p>One of the most common questions I get asked on TikTok is about my saddle. So I thought it was time to properly introduce you to the Voltaire Blue Infinite—the saddle that's changed how I ride and train with DJ.</p>
+        <p>The Voltaire Blue Infinite isn't just a saddle—it's a smart saddle. Built on Voltaire Design's reputation for exceptional craftsmanship, the Blue Infinite takes things further by incorporating technology that tracks and analyses your riding in real-time.</p>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>December Show &amp; Getting DJ Competition Ready</title>
+      <link>https://jazjumps.github.io/blog/december-show-prep.html</link>
+      <guid isPermaLink="true">https://jazjumps.github.io/blog/december-show-prep.html</guid>
+      <pubDate>Sun, 24 Nov 2025 12:00:00 GMT</pubDate>
+      <author>hello@jazjumps.com (Jasmine Beasley)</author>
+      <category>Training</category>
+      <category>Competition</category>
+      <description>With the Suffolk Equestrian Christmas Show Jumping just around the corner, the focus right now is all about getting DJ back into competition shape. After a quieter autumn, it's time to ramp things up and start building towards our spring goals.</description>
+      <content:encoded><![CDATA[
+        <p>With the Suffolk Equestrian Christmas Show Jumping just around the corner, the focus right now is all about getting DJ back into competition shape. After a quieter autumn, it's time to ramp things up and start building towards our spring goals.</p>
+        <p>December's show at Suffolk Equestrian might seem like just another local unaffiliated competition, but for us it's much more than that. It's the first step in what's going to be a demanding 2026 season.</p>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Eyes on Spain: My 2026 Goals</title>
+      <link>https://jazjumps.github.io/blog/eyes-on-spain-2026.html</link>
+      <guid isPermaLink="true">https://jazjumps.github.io/blog/eyes-on-spain-2026.html</guid>
+      <pubDate>Thu, 20 Nov 2025 12:00:00 GMT</pubDate>
+      <author>hello@jazjumps.com (Jasmine Beasley)</author>
+      <category>Featured</category>
+      <category>Competition</category>
+      <category>Andalucia Sunshine Tour</category>
+      <description>After much planning, preparation, and more than a few pinch-me moments, I'm thrilled to share that competing at the Andalucia Sunshine Tour in Spain is my primary focus for 2026. This has been a dream of mine for years, and it's finally becoming a reality.</description>
+      <content:encoded><![CDATA[
+        <p>After much planning, preparation, and more than a few pinch-me moments, I'm thrilled to share that competing at the Andalucia Sunshine Tour in Spain is my primary focus for 2026. This has been a dream of mine for years, and it's finally becoming a reality.</p>
+        <p>For those who don't know, the Andalucia Sunshine Tour is one of Europe's most prestigious show jumping circuits, held in Vejer de la Frontera in southern Spain. It attracts top riders from around the world, and the facilities and atmosphere are simply world-class.</p>
+      ]]></content:encoded>
+    </item>
+
+  </channel>
+</rss>

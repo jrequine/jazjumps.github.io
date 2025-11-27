@@ -186,4 +186,46 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // ===================================
+    // Blog Tag Filtering (Sidebar)
+    // ===================================
+    const tagFilters = document.querySelectorAll('.tag-filter');
+    const blogListItems = document.querySelectorAll('.blog-list-item[data-tags]');
+
+    if (tagFilters.length > 0 && blogListItems.length > 0) {
+        tagFilters.forEach(function(button) {
+            button.addEventListener('click', function() {
+                const filter = this.dataset.filter;
+
+                // Update active state
+                tagFilters.forEach(function(btn) {
+                    btn.classList.remove('active');
+                });
+                this.classList.add('active');
+
+                // Filter blog posts
+                blogListItems.forEach(function(item) {
+                    const tags = item.dataset.tags.toLowerCase();
+                    if (filter === 'all' || tags.includes(filter.toLowerCase())) {
+                        item.style.display = '';
+                        item.classList.remove('filtered-out');
+                    } else {
+                        item.style.display = 'none';
+                        item.classList.add('filtered-out');
+                    }
+                });
+            });
+        });
+
+        // Check URL for filter parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const filterParam = urlParams.get('filter');
+        if (filterParam) {
+            const matchingFilter = document.querySelector('.tag-filter[data-filter="' + filterParam + '"]');
+            if (matchingFilter) {
+                matchingFilter.click();
+            }
+        }
+    }
+
 });

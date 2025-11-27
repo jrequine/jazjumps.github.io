@@ -27,6 +27,9 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="From the Yard RSS Feed" href="https://jazjumps.github.io/feed.xml">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,6 +66,7 @@
             <a href="#" class="nav-logo">@Jazjumps</a>
             <ul class="nav-menu">
                 <li><a href="#about">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="social.html">Social</a></li>
                 <li><a href="transport.html">Transport</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -104,7 +108,7 @@
                 <div class="about-text">
                     <h2>About Jasmine</h2>
                     <div class="decorative-line"></div>
-                    <p>Growing up in a small village in Suffolk, I developed a passion for horses from a young age. Now a semi-professional show jumper with over 20 years of experience working with horses, every day is still dedicated to training, improving, and chasing that perfect clear round. In 2026, I'll be joining the Sunshine Tour in Spain alongside a full competition schedule across the United Kingdom and events throughout Europe.</p>
+                    <p>Growing up in a small village in Suffolk, I developed a passion for horses from a young age. Now a semi-professional show jumper with over 20 years of experience working with horses, every day is still dedicated to training, improving, and chasing that perfect clear round. In 2026, I'll be joining the Andalucia Sunshine Tour in Spain alongside a full competition schedule across the United Kingdom and events throughout Europe. <a href="blog/eyes-on-spain-2026.html">Read about my 2026 plans</a>.</p>
                     <p>I also run Jasmine's Equine Transport (JET), a fully insured professional horse transport business. With years of experience working at Newmarket's finest yards and studs, I've driven over 450,000 miles across England and beyond—including European ferry crossings and international air transport. I specialise in transporting mares to be covered along with their foals at foot. Whether it's competitions, breeding, race days, or the sales at Tattersalls, I know how to get horses where they need to be safely and comfortably. <a href="transport.html">Learn more</a>.</p>
                     <p>Follow along as I work towards my goals—one jump at a time.</p>
                     <div class="about-stats">
@@ -130,7 +134,55 @@
         </div>
     </section>
 
-    <!-- Meet DJ Section -->
+    <!-- TikTok Preview Section (Social/Community) -->
+    <section class="tiktok-preview">
+        <div class="container">
+            <h2>Follow the Journey</h2>
+            <div class="decorative-line center"></div>
+            <div class="tiktok-preview-content">
+                <div class="tiktok-preview-text">
+                    <a href="https://www.tiktok.com/@jazjumps" target="_blank" rel="noopener"><img src="images/tiktok.png" alt="TikTok" class="tiktok-logo-small"></a>
+                    <p>After years of avoiding social media, I finally took the plunge and joined TikTok in November 2025. In just one week, I've been overwhelmed by the incredible response from the equestrian community.</p>
+                    <div class="tiktok-stats-mini">
+                        <div class="tiktok-stat-mini">
+                            <span class="stat-number">3,000+</span>
+                            <span class="stat-label">Followers</span>
+                        </div>
+                        <div class="tiktok-stat-mini">
+                            <span class="stat-number">5,700+</span>
+                            <span class="stat-label">Likes</span>
+                        </div>
+                        <div class="tiktok-stat-mini">
+                            <span class="stat-number">70K+</span>
+                            <span class="stat-label">Views</span>
+                        </div>
+                    </div>
+                    <a href="social.html" class="tiktok-preview-cta">See More & Gallery</a>
+
+                    <!-- Blog Section -->
+                    <div class="blog-highlight-section">
+                        <p class="blog-intro-text">Stay up to date with my journey, training updates, and behind-the-scenes stories.</p>
+                        <a href="blog.html" class="tiktok-preview-cta secondary">From the Yard</a>
+                        <div class="featured-blog-highlight">
+                            <a href="blog/eyes-on-spain-2026.html">
+                                <span class="featured-label">Featured</span>
+                                <span class="featured-title">Eyes on Spain: My 2026 Goals</span>
+                                <span class="featured-arrow">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tiktok-preview-embed">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jazjumps/video/7574839872448498999" data-video-id="7574839872448498999" style="max-width: 325px; min-width: 280px;">
+                        <section></section>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+    </section>
+
+    <!-- Meet DJ Section (Competition) -->
     <section id="meet-dj" class="meet-dj">
         <div class="container">
             <h2>Meet DJ</h2>
@@ -143,7 +195,7 @@
                     <h3>Don Juan du Bary</h3>
                     <p class="horse-breed">12-year-old Selle Français–Dutch Warmblood</p>
                     <p>DJ has an impressive competition history, including victories at multiple levels and winning a six bar challenge at 1.60 metres. In June 2025, he added to his achievements with a win at the Royal Norfolk Show at 1.25 metres.</p>
-                    <p>I plan to compete with him on the Sunshine Tour in Spain in 2026, along with a full season in the United Kingdom and possible additional events across Europe.</p>
+                    <p>I plan to compete with him on the Andalucia Sunshine Tour in Spain in 2026, along with a full season in the United Kingdom and possible additional events across Europe.</p>
                     <div class="dj-highlights">
                         <div class="dj-highlight">
                             <span class="highlight-icon">🇫🇷</span>
@@ -184,11 +236,19 @@
         </div>
     </section>
 
-    <!-- Upcoming Events Section -->
+    <!-- Upcoming Events Section (Competition) -->
     <section id="events" class="upcoming-events">
         <div class="container">
             <h2>Upcoming Events</h2>
             <div class="decorative-line center"></div>
+            <div class="events-featured-badges">
+                <a href="https://www.sunshinetour.net/en/home" target="_blank" rel="noopener" class="featured-badge">
+                    <img src="images/sunshine-tour.png" alt="Andalucia Sunshine Tour">
+                </a>
+                <a href="https://royalnorfolkshow.co.uk/" target="_blank" rel="noopener" class="featured-badge norfolk">
+                    <img src="images/norfolk.png" alt="Royal Norfolk Show">
+                </a>
+            </div>
             <div class="events-grid">
                 <div class="event-card">
                     <div class="event-date">
@@ -208,7 +268,7 @@
                         <span class="event-day">2026</span>
                     </div>
                     <div class="event-details">
-                        <h3><a href="https://www.sunshinetour.net/en/home" target="_blank" rel="noopener">Sunshine Tour</a></h3>
+                        <h3><a href="https://www.sunshinetour.net/en/home" target="_blank" rel="noopener">Andalucia Sunshine Tour</a></h3>
                         <p class="event-location"><span class="event-flag">🇪🇸</span> Vejer de la Frontera, Spain</p>
                         <p class="event-description">Competing at 1.00m, 1.10m, 1.25m</p>
                     </div>
@@ -222,7 +282,7 @@
                     <div class="event-details">
                         <h3><a href="https://royalnorfolkshow.co.uk/" target="_blank" rel="noopener">Royal Norfolk Show</a></h3>
                         <p class="event-location"><span class="event-flag">🇬🇧</span> Norfolk Showground, UK</p>
-                        <p class="event-description">Competing at 1.25m - defending 2025 title</p>
+                        <p class="event-description">Competing at 1.25m - defending 2025 title (ridden by Jake Hall)</p>
                     </div>
                     <span class="event-status upcoming">Upcoming</span>
                 </div>
@@ -230,42 +290,35 @@
         </div>
     </section>
 
-    <!-- TikTok Preview Section -->
-    <section class="tiktok-preview">
+    <!-- Transport Business Section (Business) -->
+    <section class="transport-promo">
         <div class="container">
-            <h2>Follow the Journey</h2>
-            <div class="decorative-line center"></div>
-            <div class="tiktok-preview-content">
-                <div class="tiktok-preview-text">
-                    <a href="https://www.tiktok.com/@jazjumps" target="_blank" rel="noopener"><img src="images/tiktok.png" alt="TikTok" class="tiktok-logo-small"></a>
-                    <p>After years of avoiding social media, I finally took the plunge and joined TikTok in November 2025. In just one week, I've been overwhelmed by the incredible response from the equestrian community.</p>
-                    <div class="tiktok-stats-mini">
-                        <div class="tiktok-stat-mini">
-                            <span class="stat-number">3,000+</span>
-                            <span class="stat-label">Followers</span>
-                        </div>
-                        <div class="tiktok-stat-mini">
-                            <span class="stat-number">5,700+</span>
-                            <span class="stat-label">Likes</span>
-                        </div>
-                        <div class="tiktok-stat-mini">
-                            <span class="stat-number">70K+</span>
-                            <span class="stat-label">Views</span>
-                        </div>
-                    </div>
-                    <a href="social.html" class="tiktok-preview-cta">See More & Gallery</a>
+            <div class="transport-promo-content">
+                <div class="transport-promo-text">
+                    <h2>Jasmine's Equine Transport (JET)</h2>
+                    <div class="decorative-line"></div>
+                    <p>With years of experience in the racing industry working at Newmarket's finest yards and studs, I provide professional horse transport you can trust. Transporting in a Broomfields horsebox, from UK competitions to European ferry crossings and international air transport, your horse is in safe hands.</p>
+                    <ul class="transport-services-list">
+                        <li>Show Jumping & Competitions</li>
+                        <li>Thoroughbred Transport</li>
+                        <li>Breeding & Stud Visits</li>
+                        <li>Mares & Foals at Foot</li>
+                        <li>Race Days with Valet Services</li>
+                        <li>Tattersalls Auctions</li>
+                        <li>European Ferry Transport</li>
+                        <li>International Air Transport</li>
+                    </ul>
+                    <p class="transport-location">Based in Cambridgeshire, Newmarket & Suffolk</p>
+                    <a href="transport.html" class="transport-cta">Learn More & Get a Quote</a>
                 </div>
-                <div class="tiktok-preview-embed">
-                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jazjumps/video/7574839872448498999" data-video-id="7574839872448498999" style="max-width: 325px; min-width: 280px;">
-                        <section></section>
-                    </blockquote>
+                <div class="transport-promo-image">
+                    <img src="images/horsebox.png" alt="Broomfields Horsebox">
                 </div>
             </div>
         </div>
-        <script async src="https://www.tiktok.com/embed.js"></script>
     </section>
 
-    <!-- Partnerships Section -->
+    <!-- Partnerships Section (Business) -->
     <section id="partnerships" class="partnerships">
         <div class="container">
             <h2>Partnerships & Sponsors</h2>
@@ -290,34 +343,6 @@
                         <li>Event Appearances</li>
                     </ul>
                     <a href="social.html#partnerships" class="partnerships-cta">Enquire About Partnerships</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Transport Business Section -->
-    <section class="transport-promo">
-        <div class="container">
-            <div class="transport-promo-content">
-                <div class="transport-promo-text">
-                    <h2>Jasmine's Equine Transport (JET)</h2>
-                    <div class="decorative-line"></div>
-                    <p>With years of experience in the racing industry working at Newmarket's finest yards and studs, I provide professional horse transport you can trust. Transporting in a Broomfields horsebox, from UK competitions to European ferry crossings and international air transport, your horse is in safe hands.</p>
-                    <ul class="transport-services-list">
-                        <li>Show Jumping & Competitions</li>
-                        <li>Thoroughbred Transport</li>
-                        <li>Breeding & Stud Visits</li>
-                        <li>Mares & Foals at Foot</li>
-                        <li>Race Days with Valet Services</li>
-                        <li>Tattersalls Auctions</li>
-                        <li>European Ferry Transport</li>
-                        <li>International Air Transport</li>
-                    </ul>
-                    <p class="transport-location">Based in Cambridgeshire, Newmarket & Suffolk</p>
-                    <a href="transport.html" class="transport-cta">Learn More & Get a Quote</a>
-                </div>
-                <div class="transport-promo-image">
-                    <img src="images/horsebox.png" alt="Broomfields Horsebox">
                 </div>
             </div>
         </div>
