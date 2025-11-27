@@ -1116,36 +1116,44 @@ img {
    =================================== */
 
 /* Navbar Light Variant */
-.navbar-light {
-    background: var(--color-cream);
+nav.navbar.navbar-light {
+    background: var(--color-cream) !important;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-.navbar-light .nav-logo,
-.navbar-light .nav-menu a {
-    color: var(--color-navy);
+nav.navbar.navbar-light.scrolled {
+    background: var(--color-cream) !important;
 }
 
-.navbar-light .nav-toggle span {
-    background: var(--color-navy);
+nav.navbar.navbar-light .nav-logo,
+nav.navbar.navbar-light .nav-menu a {
+    color: var(--color-navy) !important;
 }
 
-.navbar-light .nav-menu a::after {
+nav.navbar.navbar-light .nav-toggle span {
+    background: var(--color-navy) !important;
+}
+
+nav.navbar.navbar-light .nav-menu a::after {
     background: var(--color-gold);
 }
 
 /* Navbar Light - Mobile Menu */
 @media (max-width: 768px) {
-    .navbar-light .nav-menu {
-        background: var(--color-cream);
+    nav.navbar.navbar-light .nav-menu {
+        background: var(--color-cream) !important;
     }
 
-    .navbar-light .nav-menu a {
-        color: var(--color-navy);
+    nav.navbar.navbar-light .nav-menu a {
+        color: var(--color-navy) !important;
     }
 
-    .navbar-light .nav-toggle.active span {
-        background: var(--color-navy);
+    nav.navbar.navbar-light .nav-toggle span {
+        background: var(--color-navy) !important;
+    }
+
+    nav.navbar.navbar-light .nav-toggle.active span {
+        background: var(--color-navy) !important;
     }
 }
 
@@ -1242,6 +1250,60 @@ img {
     background: transparent;
     color: var(--color-cream);
     border-color: var(--color-cream);
+}
+
+/* Page Navigation (Social Page) */
+.page-nav {
+    background: var(--color-cream-dark);
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(26, 42, 58, 0.1);
+}
+
+.page-nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.page-nav-links a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-navy);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 0;
+    position: relative;
+    transition: var(--transition);
+}
+
+.page-nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--color-gold);
+    transition: var(--transition);
+}
+
+.page-nav-links a:hover::after {
+    width: 100%;
+}
+
+.page-nav-links a:hover {
+    color: var(--color-gold);
+}
+
+@media (max-width: 768px) {
+    .page-nav-links {
+        gap: 16px;
+    }
+
+    .page-nav-links a {
+        font-size: 0.75rem;
+    }
 }
 
 /* Social Journey Section */
