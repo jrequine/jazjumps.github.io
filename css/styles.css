@@ -565,7 +565,7 @@ img {
 }
 
 .tiktok-preview-text {
-    text-align: left;
+    text-align: center;
 }
 
 .tiktok-logo-small {
@@ -573,6 +573,9 @@ img {
     max-width: 100%;
     height: auto;
     margin-bottom: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tiktok-preview-text p {
@@ -585,6 +588,7 @@ img {
     display: flex;
     gap: 32px;
     margin-bottom: 32px;
+    justify-content: center;
 }
 
 .tiktok-stat-mini {
@@ -635,14 +639,6 @@ img {
     .tiktok-preview-content {
         grid-template-columns: 1fr;
         gap: 40px;
-    }
-
-    .tiktok-preview-text {
-        text-align: center;
-    }
-
-    .tiktok-stats-mini {
-        justify-content: center;
     }
 
     .tiktok-preview-embed {
