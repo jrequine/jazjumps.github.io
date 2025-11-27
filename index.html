@@ -33,6 +33,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jasmine Beasley",
+        "alternateName": "Jazjumps",
+        "description": "Semi-professional show jumper from Suffolk, UK with over 20 years of experience working with horses.",
+        "url": "https://jazjumps.github.io",
+        "sameAs": [
+            "https://www.tiktok.com/@jazjumps"
+        ],
+        "jobTitle": "Show Jumper",
+        "knowsAbout": ["Show Jumping", "Equestrian Sports", "Horse Transport"],
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Suffolk",
+            "addressCountry": "United Kingdom"
+        }
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -162,6 +184,52 @@
         </div>
     </section>
 
+    <!-- Upcoming Events Section -->
+    <section id="events" class="upcoming-events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="decorative-line center"></div>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="event-month">DEC</span>
+                        <span class="event-day">2025</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="https://www.myridinglife.com/eventdetails.aspx?id=528370" target="_blank" rel="noopener">Suffolk Equestrian Christmas Show Jumping</a></h3>
+                        <p class="event-location"><span class="event-flag">🇬🇧</span> Suffolk, UK</p>
+                        <p class="event-description">Competing at 1.00m, 1.10m (Unaffiliated)</p>
+                    </div>
+                    <span class="event-status upcoming">Upcoming</span>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="event-month">MAR</span>
+                        <span class="event-day">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="https://www.sunshinetour.net/en/home" target="_blank" rel="noopener">Sunshine Tour</a></h3>
+                        <p class="event-location"><span class="event-flag">🇪🇸</span> Vejer de la Frontera, Spain</p>
+                        <p class="event-description">Competing at 1.00m, 1.10m, 1.25m</p>
+                    </div>
+                    <span class="event-status upcoming">Upcoming</span>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="event-month">JUN</span>
+                        <span class="event-day">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="https://royalnorfolkshow.co.uk/" target="_blank" rel="noopener">Royal Norfolk Show</a></h3>
+                        <p class="event-location"><span class="event-flag">🇬🇧</span> Norfolk Showground, UK</p>
+                        <p class="event-description">Competing at 1.25m - defending 2025 title</p>
+                    </div>
+                    <span class="event-status upcoming">Upcoming</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- TikTok Preview Section -->
     <section class="tiktok-preview">
         <div class="container">
@@ -173,11 +241,15 @@
                     <p>After years of avoiding social media, I finally took the plunge and joined TikTok in November 2025. In just one week, I've been overwhelmed by the incredible response from the equestrian community.</p>
                     <div class="tiktok-stats-mini">
                         <div class="tiktok-stat-mini">
-                            <span class="stat-number">2,800+</span>
+                            <span class="stat-number">3,000+</span>
                             <span class="stat-label">Followers</span>
                         </div>
                         <div class="tiktok-stat-mini">
-                            <span class="stat-number">60K+</span>
+                            <span class="stat-number">5,700+</span>
+                            <span class="stat-label">Likes</span>
+                        </div>
+                        <div class="tiktok-stat-mini">
+                            <span class="stat-number">70K+</span>
                             <span class="stat-label">Views</span>
                         </div>
                     </div>
