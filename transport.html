@@ -259,7 +259,23 @@
                 <div class="form-row">
                     <div class="form-group">
                         <label for="phone">Phone</label>
-                        <input type="tel" id="phone" name="phone">
+                        <div class="phone-input-group">
+                            <select id="phone-country" name="phone-country" class="phone-country-select">
+                                <option value="+44">UK +44</option>
+                                <option value="+1">US +1</option>
+                                <option value="+353">Ireland +353</option>
+                                <option value="+33">France +33</option>
+                                <option value="+49">Germany +49</option>
+                                <option value="+34">Spain +34</option>
+                                <option value="+39">Italy +39</option>
+                                <option value="+31">Netherlands +31</option>
+                                <option value="+32">Belgium +32</option>
+                                <option value="+351">Portugal +351</option>
+                                <option value="+41">Switzerland +41</option>
+                                <option value="+43">Austria +43</option>
+                            </select>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone number">
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="horses">Number of Horses *</label>
