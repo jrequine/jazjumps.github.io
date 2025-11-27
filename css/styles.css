@@ -1134,6 +1134,21 @@ img {
     background: var(--color-gold);
 }
 
+/* Navbar Light - Mobile Menu */
+@media (max-width: 768px) {
+    .navbar-light .nav-menu {
+        background: var(--color-cream);
+    }
+
+    .navbar-light .nav-menu a {
+        color: var(--color-navy);
+    }
+
+    .navbar-light .nav-toggle.active span {
+        background: var(--color-navy);
+    }
+}
+
 /* Transport Hero */
 .transport-hero {
     min-height: 60vh;
@@ -1327,10 +1342,25 @@ img {
     background: var(--color-cream);
 }
 
+.modeling .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
 .modeling h2 {
+    font-family: var(--font-heading);
     font-size: 2.5rem;
     text-align: center;
     color: var(--color-navy);
+    margin-bottom: 8px;
+}
+
+.modeling .decorative-line {
+    width: 60px;
+    height: 2px;
+    background: var(--color-gold);
+    margin: 0 auto 40px;
 }
 
 .modeling-content {
@@ -1338,13 +1368,13 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
-    margin-top: 40px;
 }
 
 .modeling-text p {
     color: var(--color-text-light);
     margin-bottom: 20px;
     line-height: 1.8;
+    font-size: 1rem;
 }
 
 .modeling-services {
@@ -1382,6 +1412,7 @@ img {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-decoration: none;
     border: 2px solid var(--color-gold);
     transition: var(--transition);
 }
@@ -1393,13 +1424,14 @@ img {
 
 .modeling-images {
     position: relative;
-    max-width: 450px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
 .modeling-img {
+    display: block;
     width: 100%;
-    max-height: 550px;
+    max-height: 500px;
     height: auto;
     object-fit: cover;
     object-position: center top;
@@ -1408,6 +1440,10 @@ img {
 }
 
 @media (max-width: 968px) {
+    .modeling {
+        padding: 80px 0;
+    }
+
     .modeling-content {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -1415,14 +1451,22 @@ img {
 
     .modeling-images {
         order: -1;
-        max-width: 400px;
+        max-width: 350px;
         margin: 0 auto;
+    }
+
+    .modeling-img {
+        max-height: 400px;
     }
 }
 
 @media (max-width: 480px) {
     .modeling-services {
         grid-template-columns: 1fr;
+    }
+
+    .modeling h2 {
+        font-size: 2rem;
     }
 }
 
@@ -1886,14 +1930,6 @@ img {
 }
 
 @media (max-width: 768px) {
-    .navbar-light .nav-menu {
-        background: var(--color-cream);
-    }
-
-    .navbar-light .nav-menu a {
-        color: var(--color-navy);
-    }
-
     .services-grid {
         grid-template-columns: 1fr;
         max-width: 400px;
