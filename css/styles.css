@@ -542,6 +542,128 @@ img {
 }
 
 /* ===================================
+   Meet DJ Section (Homepage)
+   =================================== */
+.meet-dj {
+    padding: 100px 0;
+    background: var(--color-navy);
+    color: var(--color-cream);
+}
+
+.meet-dj h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--color-cream);
+}
+
+.meet-dj .decorative-line {
+    background: var(--color-gold);
+}
+
+.meet-dj-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.meet-dj-image {
+    position: relative;
+}
+
+.meet-dj-image::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: -20px;
+    bottom: -20px;
+    border: 2px solid var(--color-gold);
+    z-index: 0;
+}
+
+.meet-dj-image img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.meet-dj-text h3 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--color-gold);
+    margin-bottom: 8px;
+}
+
+.horse-breed {
+    font-style: italic;
+    color: var(--color-cream-dark);
+    margin-bottom: 24px !important;
+    font-size: 1.1rem;
+}
+
+.meet-dj-text p {
+    color: var(--color-cream-dark);
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.dj-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.dj-highlight {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    background: rgba(201, 169, 89, 0.1);
+    border: 1px solid rgba(201, 169, 89, 0.3);
+}
+
+.highlight-icon {
+    font-size: 1.25rem;
+}
+
+.highlight-text {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-cream);
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 968px) {
+    .meet-dj-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .meet-dj-image {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .meet-dj {
+        padding: 80px 0;
+    }
+
+    .meet-dj h2 {
+        font-size: 2rem;
+    }
+
+    .dj-highlights {
+        flex-direction: column;
+    }
+}
+
+/* ===================================
    TikTok Preview Section (Homepage)
    =================================== */
 .tiktok-preview {
