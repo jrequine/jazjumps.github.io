@@ -6,7 +6,7 @@
     <link>https://jazjumps.github.io/blog.html</link>
     <atom:link href="https://jazjumps.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 27 Nov 2025 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 12:00:00 GMT</lastBuildDate>
     <managingEditor>hello@jazjumps.com (Jasmine Beasley)</managingEditor>
     <webMaster>hello@jazjumps.com (Jasmine Beasley)</webMaster>
     <copyright>Copyright 2025 Jasmine Beasley</copyright>
@@ -16,6 +16,22 @@
       <title>From the Yard</title>
       <link>https://jazjumps.github.io/blog.html</link>
     </image>
+
+    <item>
+      <title>5,000 Followers in 18 Days - Thank You!</title>
+      <link>https://jazjumps.github.io/blog/5000-followers-thank-you.html</link>
+      <guid isPermaLink="true">https://jazjumps.github.io/blog/5000-followers-thank-you.html</guid>
+      <pubDate>Mon, 08 Dec 2025 12:00:00 GMT</pubDate>
+      <author>hello@jazjumps.com (Jasmine Beasley)</author>
+      <category>Social</category>
+      <category>TikTok</category>
+      <category>Milestone</category>
+      <description>In just 18 days, we've reached 5,000 followers, 250,000 views, and 23,000 likes. A heartfelt thank you to the incredible equestrian community for all the support.</description>
+      <content:encoded><![CDATA[
+        <p>I genuinely don't know where to begin. Eighteen days ago, I finally took the plunge and joined TikTok after years of avoiding social media. I had no idea what to expect, no strategy, no plan—just a camera, my horse DJ, and a willingness to share our journey. What has happened since has been nothing short of incredible.</p>
+        <p>In just 18 days: 5,000+ followers, 250,000+ views, 23,000+ likes. These numbers are beyond anything I could have imagined when I posted that first nervous video.</p>
+      ]]></content:encoded>
+    </item>
 
     <item>
       <title>The JET Journey: My Broomfields Horsebox</title>
