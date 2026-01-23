@@ -1567,6 +1567,19 @@ img {
     filter: grayscale(0%);
 }
 
+.brand-logo-text {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-navy);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.brand-logo-text:hover {
+    color: var(--color-gold);
+}
+
 .partnerships-cta {
     display: inline-block;
     padding: 16px 32px;
